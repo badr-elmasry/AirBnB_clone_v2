@@ -5,7 +5,7 @@ from fabric.api import env
 from fabric.api import put
 from fabric.api import run
 
-env.hosts = ["34.224.15.146", "52.90.15.63"]
+env.hosts = ["54.146.90.111", "34.204.76.236"]
 env.user = "ubuntu"
 def do_deploy(archive_path):
     """Create a tar gzipped archive of the directory web_static."""
